@@ -1,9 +1,9 @@
-import UsersList from "./components/UsersList"
+import Pets from "./components/Pets"
 
 const App = () => {
   return (
     <div>
-      <UsersList />
+      <Pets />
     </div>
   )
 }

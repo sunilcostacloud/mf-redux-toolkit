@@ -21,6 +21,7 @@ const App = () => {
       document.removeEventListener('microfrontendEvent', handleEvent);
     };
   }, []);
+
   return (
     <div>
       <Pets />
