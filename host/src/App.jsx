@@ -7,7 +7,6 @@ const App = () => {
   const dispatch = useDispatch()
   const { data } = useSelector(state => state.dataI);
 
-  console.log("valueeee", data)
 
   useEffect(() => {
     const handleEvent = (event) => {
